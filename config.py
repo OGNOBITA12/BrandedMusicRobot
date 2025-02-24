@@ -39,7 +39,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+hu    "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSIC_BOT_UPDATE")
@@ -89,21 +89,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/4675vq.jpg"
+    "START_IMG_URL", "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/4675vq.jpg"
+    "PING_IMG_URL", "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
 )
-PLAYLIST_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-STATS_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-TELEGRAM_AUDIO_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-TELEGRAM_VIDEO_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-STREAM_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-SOUNCLOUD_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-YOUTUBE_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://carder.ton.run/imagens/1737740456295-780753388.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+STATS_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+STREAM_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/9e905f555f8e9083e89db-d5c9cb869654fb4071.jpg"
 
 
 def time_to_seconds(time):
